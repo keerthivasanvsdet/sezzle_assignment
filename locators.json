@@ -1,0 +1,21 @@
+{	
+	"LoginPageSignInButton": "//button[contains(text(),'SIGN IN')]",
+    "LoginPageSignUpButton": "//button[contains(text(),'SIGN UP')]",
+    "LoginPageSignUpLink": "//button[@class='link' and contains(text(),'Sign Up')]",
+    "MerchantSignUpButton": "//*[contains(text(),'Merchant Sign Up')]",
+    "MerchantSignInButton": "//*[contains(text(),'Merchant Sign In')]",
+    "CaptchaBox": "//*[@title='reCAPTCHA']",
+    "ImageSelectionCaptcha": "//*[@title='recaptcha challenge']",
+    "HelperIcon": "//*[@id='rc-imageselect']//div[@class='rc-buttons']//div[@class='button-holder help-button-holder']",
+    "MerchantSignUpText": "//*[contains(text(),'Merchant Sign-up')]",
+    "Email": "//input[@name='email']",
+    "Password": "//input[@name='password']",
+    "RetypePassword": "//input[@name='password_confirm']",
+    "MerchantSignInText": "//*[contains(text(),'Merchant Sign In')]",
+    "SignInEmail": "//input[@name='username']",
+    "LoginButton": "//span[contains(text(),'Login')]",
+    "GetStartedButton": "//span[contains(text(),'Get started')]",
+    "SignUpText": "//span[contains(text(),'Your Basic Company Information')]",
+    "EmailValidationText": "//input[@name='username']/../span",
+    "PasswordValidationText": "//input[@name='password']/../span"
+}

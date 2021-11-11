@@ -1,0 +1,14 @@
+{
+    "Name": "Amazon",
+    "Author": "Keerthivasan",
+    "URL": "https://sandbox.dashboard.eu.sezzle.com/",
+    "Password": "aa12345678",
+    "Company List": [
+        "Company: eBay",
+        "Company: Paypal",
+        "Company: Google"
+    ],
+    "InvalidEmailText":"Email is invalid",
+    "ValidationText":"This field is required",
+    "SignedMessage":"Your Basic Company Information"
+}
