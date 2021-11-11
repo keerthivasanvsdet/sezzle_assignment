@@ -1,0 +1,103 @@
+2021-11-11 10:16:20,300 main DEBUG Initializing configuration XmlConfiguration[location=C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml]
+2021-11-11 10:16:20,300 main DEBUG Installed script engines
+2021-11-11 10:16:20,487 main DEBUG Oracle Nashorn Version: 1.8.0_221, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2021-11-11 10:16:20,487 main DEBUG PluginManager 'Core' found 112 plugins
+2021-11-11 10:16:20,487 main DEBUG PluginManager 'Level' found 0 plugins
+2021-11-11 10:16:20,487 main DEBUG PluginManager 'Lookup' found 13 plugins
+2021-11-11 10:16:20,487 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-11-11 10:16:20,487 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-11-11 10:16:20,503 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-11-11 10:16:20,503 main DEBUG PluginManager 'Converter' found 41 plugins
+2021-11-11 10:16:20,503 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-11-11 10:16:20,518 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n), name="Console", Configuration(C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml), Filter=null)
+2021-11-11 10:16:20,518 main DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+2021-11-11 10:16:20,518 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-11-11 10:16:20,518 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-11-11 10:16:20,518 main DEBUG createAppenders(={Console})
+2021-11-11 10:16:20,518 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-11-11 10:16:20,518 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2021-11-11 10:16:20,518 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-11-11 10:16:20,518 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={Console}, ={}, Configuration(C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml), Filter=null)
+2021-11-11 10:16:20,518 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-11-11 10:16:20,518 main DEBUG createLoggers(={root})
+2021-11-11 10:16:20,518 main DEBUG Configuration XmlConfiguration[location=C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml] initialized
+2021-11-11 10:16:20,518 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml]
+2021-11-11 10:16:20,518 main DEBUG Started configuration XmlConfiguration[location=C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml] OK.
+2021-11-11 10:16:20,518 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-11-11 10:16:20,518 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-11-11 10:16:20,518 main DEBUG Appender DefaultConsole-1 stopped with status true
+2021-11-11 10:16:20,518 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@16f65612 OK
+2021-11-11 10:16:20,550 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93
+2021-11-11 10:16:20,550 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=StatusLogger
+2021-11-11 10:16:20,550 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=ContextSelector
+2021-11-11 10:16:20,550 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=
+2021-11-11 10:16:20,550 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=Console
+2021-11-11 10:16:20,550 main DEBUG Reconfiguration complete for context[name=73d16e93] at URI C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@217ed35e) with optional ClassLoader: null
+2021-11-11 10:16:20,550 main DEBUG Shutdown hook enabled. Registering a new one.
+2021-11-11 10:16:20,550 main DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@217ed35e] started OK.
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - Read all data from config.json & locators.json
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - *******************************************
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common -  
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - Executing Scenario: Sezzle SignUp, SignIn & 2 Other Scenarios
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common -  
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - *******************************************
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - Product: Amazon
+10:16:20.565 [main] INFO  2021-11-11 10:16:20.565 [main]    Common pages.Common - Author: Keerthivasan
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 56938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 11, 2021 10:16:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 11, 2021 10:16:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 95
+10:16:22.993 [main] INFO  2021-11-11 10:16:22.993 [main]    Common pages.Common - Launched Chrome Driver
+10:16:23.000 [main] INFO  2021-11-11 10:16:23.000 [main]    Common pages.Common - Have set implicit timeout of 10 Seconds
+10:16:30.565 [main] INFO  2021-11-11 10:16:30.565 [main]    Common pages.Common - Loading the Page: https://sandbox.dashboard.eu.sezzle.com/
+10:16:30.600 [main] INFO  2021-11-11 10:16:30.600 [main]    Common pages.Common - Login Page is Displayed
+10:16:30.640 [main] INFO  2021-11-11 10:16:30.640 [main]    Common pages.Common - Clicked SignUp Hyperlink in Login Page
+10:16:33.276 [main] INFO  2021-11-11 10:16:33.276 [main]    Common pages.Common - Clicked Merchant SignUp Button in Login Page
+10:16:33.305 [main] INFO  2021-11-11 10:16:33.305 [main]    Common pages.Common - Merchant SignUp Page is Displayed
+10:16:33.378 [main] INFO  2021-11-11 10:16:33.378 [main]    Common pages.Common - Clicked the First Captcha Box in Login Page
+10:16:38.510 [main] INFO  2021-11-11 10:16:38.510 [main]    Common pages.Common - Captcha Resolved
+10:16:41.837 [main] INFO  2021-11-11 10:16:41.837 [main]    Common pages.Common - Email ID: zvbo@gmail.com
+10:16:42.089 [main] INFO  2021-11-11 10:16:42.089 [main]    Common pages.Common - Clicked GetStarted Button in MerchantSignUp Page
+10:16:52.126 [main] INFO  2021-11-11 10:16:52.126 [main]    Common pages.Common - Merchant SignedUp Text is Displayed
+10:16:52.224 [main] INFO  2021-11-11 10:16:52.224 [main]    Common pages.Common - Loading the Page: https://sandbox.dashboard.eu.sezzle.com/
+10:16:52.246 [main] INFO  2021-11-11 10:16:52.246 [main]    Common pages.Common - Login Page is Displayed
+10:16:52.285 [main] INFO  2021-11-11 10:16:52.285 [main]    Common pages.Common - Clicked SignIn Button in Login Page
+10:16:53.371 [main] INFO  2021-11-11 10:16:53.371 [main]    Common pages.Common - Clicked Merchant SignIn Button in Login Page
+10:16:53.733 [main] INFO  2021-11-11 10:16:53.733 [main]    Common pages.Common - Merchant SignIn Page is Displayed
+10:16:53.880 [main] INFO  2021-11-11 10:16:53.880 [main]    Common pages.Common - Email ID: zvbo@gmail.com
+10:16:55.974 [main] INFO  2021-11-11 10:16:55.974 [main]    Common pages.Common - Email & Password Details are entered
+10:16:56.037 [main] INFO  2021-11-11 10:16:56.037 [main]    Common pages.Common - Clicked LoginButton in MerchantSignIn Page
+10:17:01.059 [main] INFO  2021-11-11 10:17:01.059 [main]    Common pages.Common - Merchant SignedUp Text is Displayed
+10:17:01.121 [main] INFO  2021-11-11 10:17:01.121 [main]    Common pages.Common - Loading the Page: https://sandbox.dashboard.eu.sezzle.com/
+10:17:01.141 [main] INFO  2021-11-11 10:17:01.141 [main]    Common pages.Common - Login Page is Displayed
+10:17:01.171 [main] INFO  2021-11-11 10:17:01.171 [main]    Common pages.Common - Clicked SignIn Button in Login Page
+10:17:02.360 [main] INFO  2021-11-11 10:17:02.360 [main]    Common pages.Common - Clicked Merchant SignIn Button in Login Page
+10:17:02.383 [main] INFO  2021-11-11 10:17:02.383 [main]    Common pages.Common - Merchant SignIn Page is Displayed
+10:17:02.520 [main] INFO  2021-11-11 10:17:02.520 [main]    Common pages.Common - Clicked LoginButton in MerchantSignIn Page
+10:17:07.541 [main] INFO  2021-11-11 10:17:07.541 [main]    Common pages.Common - Email Validation Text: This field is required
+10:17:07.546 [main] INFO  2021-11-11 10:17:07.546 [main]    Common pages.Common - Merchant EmailValidation Text is Displayed
+10:17:07.576 [main] INFO  2021-11-11 10:17:07.576 [main]    Common pages.Common - Password Validation Text: This field is required
+10:17:07.588 [main] INFO  2021-11-11 10:17:07.588 [main]    Common pages.Common - Merchant PasswordValidation Text is Displayed
+10:17:07.641 [main] INFO  2021-11-11 10:17:07.641 [main]    Common pages.Common - Loading the Page: https://sandbox.dashboard.eu.sezzle.com/
+10:17:07.662 [main] INFO  2021-11-11 10:17:07.662 [main]    Common pages.Common - Login Page is Displayed
+10:17:07.694 [main] INFO  2021-11-11 10:17:07.694 [main]    Common pages.Common - Clicked SignIn Button in Login Page
+10:17:08.523 [main] INFO  2021-11-11 10:17:08.523 [main]    Common pages.Common - Clicked Merchant SignIn Button in Login Page
+10:17:08.543 [main] INFO  2021-11-11 10:17:08.543 [main]    Common pages.Common - Merchant SignIn Page is Displayed
+10:17:08.690 [main] INFO  2021-11-11 10:17:08.690 [main]    Common pages.Common - Invalid Email is entered
+10:17:13.720 [main] INFO  2021-11-11 10:17:13.720 [main]    Common pages.Common - Invalid Email Validation Text: Email is invalid
+10:17:13.735 [main] INFO  2021-11-11 10:17:13.735 [main]    Common pages.Common - Merchant InvalidEmail Text is Displayed
+10:17:14.474 [main] INFO  2021-11-11 10:17:14.474 [main]    Common pages.Common - Closed the Chrome Browser
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@217ed35e]
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@217ed35e]...
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Appender Console stopped with status true
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=C:\Users\venkake\workspace\sezzle\target\classes\log4j2.xml] OK
+2021-11-11 10:17:14,474 pool-1-thread-1 DEBUG Stopped LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@217ed35e] with status true
